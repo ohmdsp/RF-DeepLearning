@@ -1,0 +1,4 @@
+*.pyc
+.ipynb_checkpoints/
+__pycache__/
+2016.04C.multisnr.pkl
