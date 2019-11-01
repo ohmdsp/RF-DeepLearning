@@ -30,9 +30,9 @@ class RFDataReader:
 
         # Display this data to the user
         print('\nModulation types present in data:\n')
-        [pprint(mod) for mod in self.mods]
+        print([(mod) for mod in self.mods])
         print('\nSNR ranges for each modulation type in data:\n')
-        [pprint(snr) for snr in self.snrs]
+        print([(snr) for snr in self.snrs])
 
         # Store sample rate of data
         self.fs = fs
